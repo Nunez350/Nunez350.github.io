@@ -1,0 +1,78 @@
+body { background: #383838 !important; }
+nav {
+    margin: 0 !important;
+    padding: 5 !important;
+    overflow: hidden !important;
+    background-color: black !important;
+    
+    position: fixed !important;
+    top: 0 !important;
+    width: 100% !important;
+    z-index: 1 !important;
+}
+   
+    
+
+    nav a{
+    color: white !important;
+    text-align: center !important;
+    padding: 21px 19px !important;
+    text-decoration: none !important;
+    float: left !important;
+    border-right:2px solid #bbb !important;
+
+    }
+
+a:hover:not(.active) {
+    background-color: #FFED18 !important;
+  }
+.active {
+    background-color: #FF0D00 !important;
+  }
+  
+  .toTheRight{
+    float: right !important;
+    width:  35px !important;
+    height: 35px !important;
+    position: relative !important;
+    right: 50px !important;
+}
+
+img {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+
+h1 {
+    font-family: fantasy !important;
+    color: #FF0D00 !important;
+    outline-style: solid !important;
+    text-align: center !important;
+    margin-top: 60px !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+p {
+    color: #FFED18 !important;
+    outline-style: solid !important;
+    text-align: center !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+p2 {
+    color: black !important;
+}
+
+.center {
+    height: 350px !important;
+    width: 50% !important;
+}
+
+#myCarousel { background: #383838 !important; }
+
+#ad {
+    width: 105%;
+}

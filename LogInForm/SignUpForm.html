@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+
+    
+  <!--audio file-->
+<audio autoplay loop hidden src="01%20-%20Stars%20at%20Our%20Backs.mp3" type="audio/mp3"></audio>
+<html>
+    <script src="SignUpForm.js"></script>
+    <head>
+        <title>Sign Up</title>
+        <link rel="stylesheet" type="text/css" href="signupCSS.css">
+    </head>
+    
+    <!-- references to other pages on the navigation bar-->
+    <nav>
+    <a href="../HomePage/Home.html">Home</a> 
+    <a href="../DealsPage/MainDeals.html">Deals</a> 
+    <a href="../PizzaShopMenu/pizzaShopMenu.html">Order</a> 
+    <a class="active" href="loginForm.html">Login</a>  
+    <a href="../AboutUsPage/AboutUsPage.html">About Us</a>  
+    </nav>
+
+<div class="toTheRight" >
+        <a href="../PizzaStoreLocationPage/pizzaStoreLocator.html"><i class='fas fa-map-marker-alt' style='font-size:35px;color:red'></i></a>
+</nav>
+   
+    <!--divider
+    <div class="imgcontainer">
+      <img src="MyImage.png" alt="MyImage" class="image" style="width:1200px;height:650px;"> 
+            </div>
+            <style>
+                    body {
+                        background-image: 
+                    }
+            </style>
+                
+-->
+    
+    <!--input tag specifying an input field where the user can enter data-->
+    <body background="MyImage.png"> 
+            >
+        <div id= "form_id" class="form-wrap">
+            <form id= "form_id">
+            <h1 style="color:blue;">Sign up</h1>
+                <input id = "Full Name" type="text" placeholder="Full Name" color = #FF0000 value = ''>
+                <input id = "Username" type="text" placeholder="Username" value = ''>
+                <input id="email" type="email" placeholder="Email" value = ''>
+                <input id ="password1" type="password" placeholder="Password">
+                <input  id ="password2" type="password" placeholder="Confirm Password">
+                <input type="button" name="submit_name" id="btn_name" 
+                value="Submit" onclick="submit_by_name()"/>
+
+             
+            </form>
+        </div>
+    </body>
+</html>
